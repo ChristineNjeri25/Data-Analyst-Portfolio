@@ -1,0 +1,6 @@
+"# Ignore system and temp files" 
+"*.tmp" 
+"~$*.xlsx" 
+".DS_Store" 
+"*.env" 
+"__pycache__/" 
