@@ -1,0 +1,6 @@
+﻿SalesPerson,Region,Total Sales,Commission Rate,Commission Payout,Regional Manager,Region,Manager
+Alice,North,45000,0.03,1350,Sarah,North,Sarah
+Bob,South,60000,0.05,3000,David,South,David
+Charlie,East,50000,0.05,2500,Amina,East,Amina
+Diana,West,35000,0.03,1050,Kevin,West,Kevin
+Eve,North,85000,0.05,4250,Sarah,,
