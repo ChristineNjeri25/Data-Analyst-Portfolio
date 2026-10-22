@@ -10,3 +10,9 @@
 - **Objective:** Load a CSV dataset into a Pandas DataFrame, group sales by region, categorize salespeople into performance tiers, and calculate bonus commissions.
 - **Skills Used:** Pandas (`read_csv`, `groupby`, `sum`), custom Python functions (`def`), `.apply()` method, and vectorized math.
 - **Key Finding:** The North region generated the highest total commission ($5,600). The custom function categorized 2 Gold, 2 Silver, and 1 Bronze salesperson. Vectorized math calculated a 2% bonus for all salespeople instantly.
+
+
+## 3. Sales Commission Visualization (Matplotlib & Seaborn)
+- **Objective:** Generate a professional bar chart using Python code instead of a BI tool.
+- **Skills Used:** `matplotlib.pyplot`, `seaborn.barplot`, and `plt.savefig()` to save the chart as a PNG for reporting.
+- **Key Finding:** Eve generated the highest commission payout ($4,250), followed by Bob ($3,000). The visual output is saved as `commission_chart.png`.
