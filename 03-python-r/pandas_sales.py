@@ -24,3 +24,9 @@ df['Sales_Tier'] = df['Total Sales'].apply(get_tier)
 
 # Print the SalesPerson, Total Sales, and the new Sales_Tier column
 print(df[['SalesPerson', 'Total Sales', 'Sales_Tier']])
+
+# Calculate a 2% bonus on the Total Sales
+df['Bonus_Commission'] = df['Total Sales'] * 0.02
+
+# Print the SalesPerson and their new bonus
+print(df[['SalesPerson', 'Bonus_Commission']])
