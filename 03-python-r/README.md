@@ -16,3 +16,9 @@
 - **Objective:** Generate a professional bar chart using Python code instead of a BI tool.
 - **Skills Used:** `matplotlib.pyplot`, `seaborn.barplot`, and `plt.savefig()` to save the chart as a PNG for reporting.
 - **Key Finding:** Eve generated the highest commission payout ($4,250), followed by Bob ($3,000). The visual output is saved as `commission_chart.png`.
+
+
+## 4. Line Chart vs. Bar Chart (Visualization Logic)
+- **Objective:** Demonstrate why line charts are inappropriate for categorical data.
+- **Skills Used:** `sns.lineplot`, comparing visual outputs.
+- **Key Finding:** Connecting categorical data (SalesPersons) with a line creates a misleading visual zig-zag. Line charts must be reserved for continuous data (like time series) to show trends, while bar charts are for comparison.
