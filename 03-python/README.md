@@ -32,3 +32,8 @@
 - **Objective:** Connect to a live, external REST API to pull real-time data instead of relying on static CSVs.
 - **Skills Used:** `requests` library, handling JSON responses, and parsing nested dictionaries.
 - **Key Finding:** Successfully pulled the current temperature (25.7°C) and wind speed (7.2 km/h) for Nairobi's GPS coordinates using the Open-Meteo API.
+
+## 7. Live Exchange Rate API (Python & Requests)
+- **Objective:** Fetch live USD to KES exchange rates using a public API to support financial calculations.
+- **Skills Used:** `requests.get()`, JSON parsing (`response.json()`), and navigating nested dictionaries (`data['rates']['KES']`).
+- **Key Finding:** Successfully retrieved the live exchange rate (129.91 KES for 1 USD) to demonstrate how analysts automate currency conversions for import/export businesses.
