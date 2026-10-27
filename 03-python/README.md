@@ -22,3 +22,8 @@
 - **Objective:** Demonstrate why line charts are inappropriate for categorical data.
 - **Skills Used:** `sns.lineplot`, comparing visual outputs.
 - **Key Finding:** Connecting categorical data (SalesPersons) with a line creates a misleading visual zig-zag. Line charts must be reserved for continuous data (like time series) to show trends, while bar charts are for comparison.
+
+## 5. Automated Daily Report (Python Scripting & Task Scheduler)
+- **Objective:** Automate the generation of a daily KPI summary report to eliminate manual Excel work.
+- **Skills Used:** Python file handling (`open`, `write`), `datetime` module, and Windows Task Scheduler for automated execution.
+- **Key Finding:** The script successfully calculates the total ($12,150) and average ($2,430) commission payouts and writes a timestamped report to a text file automatically.
