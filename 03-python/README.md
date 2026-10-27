@@ -27,3 +27,8 @@
 - **Objective:** Automate the generation of a daily KPI summary report to eliminate manual Excel work.
 - **Skills Used:** Python file handling (`open`, `write`), `datetime` module, and Windows Task Scheduler for automated execution.
 - **Key Finding:** The script successfully calculates the total ($12,150) and average ($2,430) commission payouts and writes a timestamped report to a text file automatically.
+
+## 6. Real-Time Weather API (Python & Requests)
+- **Objective:** Connect to a live, external REST API to pull real-time data instead of relying on static CSVs.
+- **Skills Used:** `requests` library, handling JSON responses, and parsing nested dictionaries.
+- **Key Finding:** Successfully pulled the current temperature (25.7°C) and wind speed (7.2 km/h) for Nairobi's GPS coordinates using the Open-Meteo API.
